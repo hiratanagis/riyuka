@@ -1,0 +1,44 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "riyuka",
+  "version": "2.0.5",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.0",
+    "discord.js": "^11.5.1",
+    "quick.db": "",
+    "node-superfetch": "^0.1.10",
+    "fs": "^0.0.2",
+    "canvas-constructor": "^3.2.0",
+    "ytdl-core": "^3.1.1",
+    "opusscript": "^0.0.7",
+    "parse-ms": "^2.0.0",
+    "simple-youtube-api": "^5.2.1",
+    "child-process": "^1.0.2",
+    "moment": "^2.26.0",
+    "os": "^0.1.1",
+    "cpu-stat": "^2.0.1",
+    "random-meow": "^3.6.0",
+    "ms": "^2.1.2",
+    "apiai": "^4.0.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/riyuka"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
